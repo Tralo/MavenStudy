@@ -1,0 +1,9 @@
+1.Maven的基本概念
+Maven 是跨平台的项目管理工具，主要服务于基于Java平台的项目构建，依赖管理类和项目信息管理
+
+mvn compile
+mvn test
+mvn clean
+mvn package
+mvn install
+仓库 --> 
