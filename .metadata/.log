@@ -1,0 +1,13 @@
+!SESSION 2016-11-01 21:41:26.363 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-11-01 21:41:39.968
+!MESSAGE Internal browser is not available: No more handles [Could not detect registered XULRunner to use]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-01 21:44:53.844
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null

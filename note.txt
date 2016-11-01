@@ -6,4 +6,5 @@ mvn test
 mvn clean
 mvn package
 mvn install
+mvn archetype:generate
 仓库 --> 

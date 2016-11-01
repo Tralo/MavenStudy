@@ -1,0 +1,5 @@
+eclipse.m2.defaultRuntime=/usr/local/apache-maven
+eclipse.m2.globalSettingsFile=/usr/local/apache-maven/conf/settings.xml
+eclipse.m2.runtimes=/usr/local/apache-maven
+eclipse.m2.userSettingsFile=/usr/local/apache-maven/conf/settings.xml
+eclipse.preferences.version=1
