@@ -1,0 +1,4 @@
+zttc/itat/user/util/HibernateUtil.class
+zttc/itat/user/dao/UserDao.class
+zttc/itat/user/model/User.class
+zttc/itat/user/dao/IUserDao.class

@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>zttc.itat.user</groupId>
-  <artifactId>user-core</artifactId>
+  <artifactId>user-service</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>user-core</name>
+  <name>user-service</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,24 +22,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core</artifactId>
-      <version>4.1.0.Final</version>
+    	<groupId>${project.groupId}</groupId>
+    	<artifactId>user-log</artifactId>
+    	<version>${project.version}</version>
     </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.24</version>
-    </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.14</version>
-    </dependency>
-    <dependency>
-      <groupId>org.dbunit</groupId>
-      <artifactId>dbunit</artifactId>
-      <version>2.4.9</version>
+     <dependency>
+    	<groupId>${project.groupId}</groupId>
+    	<artifactId>user-core</artifactId>
+    	<version>${project.version}</version>
     </dependency>
   </dependencies>
 </project>
