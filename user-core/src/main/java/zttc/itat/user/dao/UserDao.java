@@ -33,7 +33,7 @@ public class UserDao implements IUserDao {
 			session = HibernateUtil.openSession();
 			session.beginTransaction();
 			
-			username = (String) session.createQuery("from User u where u.username = ?").setParameter(0, username).uniqueResult();
+			user = (User) session.createQuery("from User u where u.username = ?").setParameter(0, username).uniqueResult();
 			
 			session.getTransaction().commit();
 			

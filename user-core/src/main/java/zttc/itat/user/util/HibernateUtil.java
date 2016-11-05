@@ -10,12 +10,16 @@ import org.hibernate.service.ServiceRegistryBuilder;
 public class HibernateUtil {
 	
 	private final static SessionFactory FACTORY = buildSessionFactory();
+	
+	public static void main(String[] args) {
+		buildSessionFactory();
+	}
 
 	private static SessionFactory buildSessionFactory() {
 		Configuration cfg = new Configuration().configure();
-//		ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
-//		SessionFactory factory = cfg.buildSessionFactory(serviceRegistry);
-		SessionFactory factory= cfg.buildSessionFactory();
+		ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
+		SessionFactory factory = cfg.buildSessionFactory(serviceRegistry);
+//		SessionFactory factory= cfg.buildSessionFactory();
 		return factory;
 	}
 	

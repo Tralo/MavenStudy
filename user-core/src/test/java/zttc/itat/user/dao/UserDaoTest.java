@@ -29,6 +29,7 @@ public class UserDaoTest {
 	@Test
 	public void testLoadByUsername() {
 		User user = userDao.loadByUsername("xiaowei");
+		System.out.println(user);
 	}
 
 }
