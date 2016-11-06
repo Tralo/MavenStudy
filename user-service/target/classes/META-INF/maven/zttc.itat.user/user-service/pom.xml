@@ -30,6 +30,13 @@
     	<groupId>${project.groupId}</groupId>
     	<artifactId>user-core</artifactId>
     	<version>${project.version}</version>
+    	<exclusions>
+    	<!-- 可以排除依赖 -->
+    		<exclusion>
+    			<groupId>commons-logging</groupId>
+    			<artifactId>commons-logging</artifactId>
+    		</exclusion>
+    	</exclusions>
     </dependency>
     <dependency>
         <groupId>org.easymock</groupId>
